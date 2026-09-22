@@ -70,7 +70,7 @@ button{
 }
 
 @media screen and (min-width: 320px)and (max-width: 600px) {
-    body{ background-color: aqua;}
+    
 
     .list{ display: none;}
 
