@@ -10,6 +10,9 @@ a{
     text-decoration: none;
     color: black;
 }
+.menu{
+    display: none;
+}
 .container{
    width: calc(100% - 330px); 
    margin: auto;
@@ -22,9 +25,11 @@ a{
     display: flex;
     flex-wrap: wrap;
     margin-top: 21.84px;   
+    justify-content: space-between;
     text-align: center;
     
 }
+
 .header .row{
     justify-content: space-between;
 }
@@ -48,9 +53,35 @@ a{
 .collection{
     width: calc(100% / 4);
     text-align: center;
-    font-st
+
 
 }
 .collection img{
-    width: 100%;
+    width: 100% ;
+}
+@media screen and (min-width: 320px)and (max-width: 600px) {
+    body{ background-color: aqua;}
+
+    .list{ display: none;}
+
+    .hiddenIcon{ display: none;}
+
+    .container{ 
+    width: 100% ;
+    padding: 30px;
+    }
+
+    .collections{ 
+        margin-top: 10px;
+        
+    }
+    .collection{ 
+        font-size:small;
+        width: 100%;
+        padding: 30px;
+    }
+    .collections .row{display:flow-root; }
+
+    .menu{display:flex;}
+
 }
