@@ -10,15 +10,24 @@ a{
     text-decoration: none;
     color: black;
 }
+.container{
+   width: calc(100% - 330px); 
+   margin: auto;
+}
+.row{
+    display: flex;
+    
+}
 .header{
     display: flex;
     flex-wrap: wrap;
-    margin: 21.84px 165px;
-    justify-content: space-between;
+    margin-top: 21.84px;   
     text-align: center;
     
 }
-
+.header .row{
+    justify-content: space-between;
+}
 .list ul{
     display: flex;
     gap: 60px;
@@ -26,4 +35,22 @@ a{
 .icons ul{
     display: flex;
     gap: 24px;
+}
+.collections{
+    justify-content: center;
+    text-align: center;
+    margin-top: 80px;
+    
+}
+.collections .row{
+    gap: 30px;
+}
+.collection{
+    width: calc(100% / 4);
+    text-align: center;
+    font-st
+
+}
+.collection img{
+    width: 100%;
 }
